@@ -11,66 +11,64 @@ A01 - User Signup Page  and Login
   
  <style>
    
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-image: linear-gradient(180deg, rgb(34, 151, 5),rgb(77, 73, 73));
-
-}
-.container {
-  max-width: 600px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
- border: 2px solid rgb(255, 255,255,0.3);
- background: rgb(255 ,255 ,255,0.1);
- backdrop-filter: blur(3px);
-}
-
-h2 {
-  text-align: center;
-  color: #000000;
-}
-
-.signup-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-label {
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-}
-
-input[type="text"], input[type="password"], input[type="date"], input[type="tel"], input[type="email"], select {
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-input[type="radio"] {
-  margin-right: 10px;
-}
-
-button[type="submit"] {
-  padding: 10px 15px;
-  font-size: 20px;
-  background-color: #eb4e39;
-  color: white;
-  border: none;
-  border-radius: 5px;
-}
-
-button[type="submit"]:hover {
-  background-color: #0c6b11;
-}
-
-.gender-options label {
+</title> 
+<style> 
+body { 
+  font-family: Arial, sans-serif; 
+  margin: 0; 
+  padding: 0; 
+  background-image: linear-gradient(180deg, rgb(34, 151, 5), rgb(77, 73, 73)); 
+} 
+.container { 
+  max-width: 600px; 
+  margin: 50px auto; 
+  padding: 20px; 
+  background-color: white; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px; 
+  border: 2px solid rgb(255, 255, 255, 0.3); 
+  background: rgb(255, 255, 255, 0.1); 
+  backdrop-filter: blur(3px); 
+} 
+h2 { 
+  text-align: center; 
+  color: #000000; 
+} 
+.signup-form { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 15px; 
+} 
+label { 
+  font-weight: bold; 
+  color: rgb(255, 255, 255); 
+} 
+input[type="text"], 
+input[type="password"], 
+input[type="date"], 
+input[type="tel"], 
+input[type="email"], 
+select { 
+  padding: 10px; 
+  font-size: 16px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+} 
+input[type="radio"] { 
+  margin-right: 10px; 
+} 
+button[type="submit"] { 
+  padding: 10px 15px; 
+  font-size: 20px; 
+  background-color: #eb4e39; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+} 
+button[type="submit"]:hover { 
+  background-color: #0c6b11; 
+} 
+.gender-options label { 
   display: inline-block;
   margin-right: 20px;
 }
