@@ -1,0 +1,249 @@
+Create a website  Task
+
+-----  code  -----
+1-( HOME )
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="./razacs.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Website!</h1>
+    <p>Your journey to success starts here.</p>
+
+  </header>
+  <nav>
+    <ul>
+      <li><a href="razahome.html">Home</a></li>
+      <li><a href="razaabout.html">About Us</a></li>   
+      <li><a href="razaimages.html">Images</a></li>
+      <li><a href="razacontact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <!-- <img src="../images/css1 (2).jpg" height="500px" width="100%"  alt=""> -->
+  <p>
+    <h3> Nature is the physical world around us, including living and non-living things, and the interactions between them. It's a source of life, providing us with oxygen, water, food, shelter, and clothing. Nature is also a beautiful tapestry of colors and a habitat for all life forms</h3>
+   </p>
+  <footer>
+    <p>&copy; Thanks for Visit</p>
+  </footer>
+</body>
+</html>
+
+
+2-( CONTACT )
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="./razacs.css">
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+   
+  </header>
+  <nav>
+    <ul>
+        <li><a href="./razahome.html">Home</a></li>
+        <li><a href="./razaabout.html">About Us</a></li>
+        
+        <li><a href="./razaimages.html">Images</a></li>
+        <li><a href="./razacontact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  
+  <section>
+    <h2>Get in Touch</h2>
+    <form  method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  
+  <footer>
+    <p>&copy; Thanks for Visit</p>
+  </footer>
+</body>
+</html>
+
+
+3-(  IMAGES )
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Images</title>
+  <link rel="stylesheet" href="./razacs.css">
+</head>
+<body>
+  <header>
+    <h1>Images</h1>
+  </header>
+  <nav>
+    <ul>
+        <li><a href="./razahome.html">Home</a></li>
+        <li><a href="./razaabout.html">About Us</a></li>
+        
+        <li><a href="./razaimages.html">Images</a></li>
+        <li><a href="./razacontact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <!-- <div class="image">
+ <img src="../images/css1 (1).jpg" alt="">
+ <img src="../images/css1 (2).jpg" alt="">
+ <img src="../images/css1 (3).jpg" alt="">
+ <img src="../images/css1 (4).jpg" alt="">
+ <img src="../images/css1 (5).jpg" alt="">
+</div> -->
+<section>
+    img src="../images/css1 (1).jpg" alt=""<br>
+    img src="../images/css1 (2).jpg" alt=""<br>
+    img src="../images/css1 (3).jpg" alt=""<br>
+    img src="../images/css1 (4).jpg" alt=""<br>
+    img src="../images/css1 (5).jpg" alt=""<br>
+</section>
+  <footer>
+    <p>&copy; Thanks for Visit</p>
+  </footer>
+</body>
+</html>
+
+4-( ABOUT )
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="./razacs.css">
+</head>
+<body>
+  <header>
+    <h1>About Us</h1>
+  </header>
+  <nav>
+    <ul>
+        <li><a href="./razahome.html">Home</a></li>
+        <li><a href="./razaabout.html">About Us</a></li>
+        
+        <li><a href="./razaimages.html">Images</a></li>
+        <li><a href="./razacontact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  
+  <section>
+    <h2>Introduction</h2>
+    <p>My name is Ali Raza .I'm 19 year Old.
+        I am a student of BS(Computer Science) In Punjab University Of Lahore.</p>
+  </section>
+  
+  <footer>
+    <p>&copy; Thanks for Visit</p>
+  </footer>
+</body>
+</html>
+
+*****(CSS of all pages)
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #333;
+    color: white;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+.image img{
+    width: 33%;
+    max-height: 280px;
+    object-fit: cover;
+    margin-top: 20px;
+  } 
+  
+  section {
+    padding: 20px;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
